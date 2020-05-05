@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/cs6620/!svn/ver/2/reference
+END
+Math.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/cs6620/!svn/ver/1/reference/Math.h
+END
+Point.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Point.h
+END
+Parser.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cs6620/!svn/ver/1/reference/Parser.cc
+END
+Group.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Group.h
+END
+Plane.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Plane.cc
+END
+Material.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/cs6620/!svn/ver/1/reference/Material.h
+END
+Time.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/cs6620/!svn/ver/1/reference/Time.h
+END
+Plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Plane.h
+END
+Vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Vector.h
+END
+specter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/cs6620/!svn/ver/1/reference/specter.cc
+END
+Object.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cs6620/!svn/ver/1/reference/Object.cc
+END
+PinholeCamera.cc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/cs6620/!svn/ver/1/reference/PinholeCamera.cc
+END
+Primitive.cc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cs6620/!svn/ver/1/reference/Primitive.cc
+END
+PinholeCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/cs6620/!svn/ver/1/reference/PinholeCamera.h
+END
+BoundingBox.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/cs6620/!svn/ver/1/reference/BoundingBox.cc
+END
+Color.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Color.h
+END
+PointLight.cc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/cs6620/!svn/ver/1/reference/PointLight.cc
+END
+Image.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Image.cc
+END
+PointLight.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cs6620/!svn/ver/1/reference/PointLight.h
+END
+HitRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/cs6620/!svn/ver/1/reference/HitRecord.h
+END
+RenderContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/cs6620/!svn/ver/1/reference/RenderContext.h
+END
+Sphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Sphere.h
+END
+ConstantBackground.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cs6620/!svn/ver/1/reference/ConstantBackground.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/cs6620/!svn/ver/1/reference/CMakeLists.txt
+END
+Camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Camera.h
+END
+ConstantBackground.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cs6620/!svn/ver/1/reference/ConstantBackground.h
+END
+Group.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Group.cc
+END
+Scene.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/2/reference/Scene.cc
+END
+Ray.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/cs6620/!svn/ver/1/reference/Ray.h
+END
+LambertianMaterial.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cs6620/!svn/ver/1/reference/LambertianMaterial.cc
+END
+Material.cc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/cs6620/!svn/ver/1/reference/Material.cc
+END
+Parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Parser.h
+END
+Time.cc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Time.cc
+END
+LambertianMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cs6620/!svn/ver/1/reference/LambertianMaterial.h
+END
+Scene.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Scene.h
+END
+Vector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cs6620/!svn/ver/1/reference/Vector.cc
+END
+Light.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Light.cc
+END
+Object.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Object.h
+END
+Light.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Light.h
+END
+Primitive.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/cs6620/!svn/ver/1/reference/Primitive.h
+END
+Color.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Color.cc
+END
+Background.cc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/cs6620/!svn/ver/1/reference/Background.cc
+END
+BoundingBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/cs6620/!svn/ver/1/reference/BoundingBox.h
+END
+Background.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/cs6620/!svn/ver/1/reference/Background.h
+END
+Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cs6620/!svn/ver/1/reference/Image.h
+END
+Sphere.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cs6620/!svn/ver/1/reference/Sphere.cc
+END
+Camera.cc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/cs6620/!svn/ver/1/reference/Camera.cc
+END
+Point.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/cs6620/!svn/ver/1/reference/Point.cc
+END
