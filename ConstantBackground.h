@@ -11,7 +11,7 @@ class ConstantBackground : public Background {
   virtual ~ConstantBackground();
 
   virtual void preprocess();
-  virtual void getBackgroundColor(Color& result, const RenderContext& context, const Ray& ray);
+  virtual void getBackgroundColor(Color& result, const RenderContext& context, const Ray& ray,Color& color_depth);
 
  private:
   ConstantBackground(const ConstantBackground&);

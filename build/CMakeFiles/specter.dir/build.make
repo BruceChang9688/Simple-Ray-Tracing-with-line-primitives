@@ -109,9 +109,22 @@ CMakeFiles/specter.dir/Color.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/Color.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/Color.cc -o CMakeFiles/specter.dir/Color.s
 
+CMakeFiles/specter.dir/Cone.o: CMakeFiles/specter.dir/flags.make
+CMakeFiles/specter.dir/Cone.o: ../Cone.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/specter.dir/Cone.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Cone.o -c /Users/bruce/Desktop/reference/Cone.cc
+
+CMakeFiles/specter.dir/Cone.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/specter.dir/Cone.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bruce/Desktop/reference/Cone.cc > CMakeFiles/specter.dir/Cone.i
+
+CMakeFiles/specter.dir/Cone.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/Cone.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/Cone.cc -o CMakeFiles/specter.dir/Cone.s
+
 CMakeFiles/specter.dir/ConstantBackground.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/ConstantBackground.o: ../ConstantBackground.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/specter.dir/ConstantBackground.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/specter.dir/ConstantBackground.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/ConstantBackground.o -c /Users/bruce/Desktop/reference/ConstantBackground.cc
 
 CMakeFiles/specter.dir/ConstantBackground.i: cmake_force
@@ -122,9 +135,22 @@ CMakeFiles/specter.dir/ConstantBackground.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/ConstantBackground.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/ConstantBackground.cc -o CMakeFiles/specter.dir/ConstantBackground.s
 
+CMakeFiles/specter.dir/Cylinder.o: CMakeFiles/specter.dir/flags.make
+CMakeFiles/specter.dir/Cylinder.o: ../Cylinder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/specter.dir/Cylinder.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Cylinder.o -c /Users/bruce/Desktop/reference/Cylinder.cc
+
+CMakeFiles/specter.dir/Cylinder.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/specter.dir/Cylinder.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bruce/Desktop/reference/Cylinder.cc > CMakeFiles/specter.dir/Cylinder.i
+
+CMakeFiles/specter.dir/Cylinder.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/Cylinder.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/Cylinder.cc -o CMakeFiles/specter.dir/Cylinder.s
+
 CMakeFiles/specter.dir/Group.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Group.o: ../Group.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/specter.dir/Group.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/specter.dir/Group.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Group.o -c /Users/bruce/Desktop/reference/Group.cc
 
 CMakeFiles/specter.dir/Group.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/specter.dir/Group.s: cmake_force
 
 CMakeFiles/specter.dir/Image.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Image.o: ../Image.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/specter.dir/Image.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/specter.dir/Image.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Image.o -c /Users/bruce/Desktop/reference/Image.cc
 
 CMakeFiles/specter.dir/Image.i: cmake_force
@@ -150,7 +176,7 @@ CMakeFiles/specter.dir/Image.s: cmake_force
 
 CMakeFiles/specter.dir/LambertianMaterial.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/LambertianMaterial.o: ../LambertianMaterial.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/specter.dir/LambertianMaterial.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/specter.dir/LambertianMaterial.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/LambertianMaterial.o -c /Users/bruce/Desktop/reference/LambertianMaterial.cc
 
 CMakeFiles/specter.dir/LambertianMaterial.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/specter.dir/LambertianMaterial.s: cmake_force
 
 CMakeFiles/specter.dir/Light.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Light.o: ../Light.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/specter.dir/Light.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/specter.dir/Light.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Light.o -c /Users/bruce/Desktop/reference/Light.cc
 
 CMakeFiles/specter.dir/Light.i: cmake_force
@@ -174,9 +200,22 @@ CMakeFiles/specter.dir/Light.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/Light.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/Light.cc -o CMakeFiles/specter.dir/Light.s
 
+CMakeFiles/specter.dir/Line.o: CMakeFiles/specter.dir/flags.make
+CMakeFiles/specter.dir/Line.o: ../Line.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/specter.dir/Line.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Line.o -c /Users/bruce/Desktop/reference/Line.cc
+
+CMakeFiles/specter.dir/Line.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/specter.dir/Line.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bruce/Desktop/reference/Line.cc > CMakeFiles/specter.dir/Line.i
+
+CMakeFiles/specter.dir/Line.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specter.dir/Line.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bruce/Desktop/reference/Line.cc -o CMakeFiles/specter.dir/Line.s
+
 CMakeFiles/specter.dir/Material.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Material.o: ../Material.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/specter.dir/Material.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/specter.dir/Material.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Material.o -c /Users/bruce/Desktop/reference/Material.cc
 
 CMakeFiles/specter.dir/Material.i: cmake_force
@@ -189,7 +228,7 @@ CMakeFiles/specter.dir/Material.s: cmake_force
 
 CMakeFiles/specter.dir/Object.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Object.o: ../Object.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/specter.dir/Object.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/specter.dir/Object.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Object.o -c /Users/bruce/Desktop/reference/Object.cc
 
 CMakeFiles/specter.dir/Object.i: cmake_force
@@ -202,7 +241,7 @@ CMakeFiles/specter.dir/Object.s: cmake_force
 
 CMakeFiles/specter.dir/Parser.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Parser.o: ../Parser.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/specter.dir/Parser.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/specter.dir/Parser.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Parser.o -c /Users/bruce/Desktop/reference/Parser.cc
 
 CMakeFiles/specter.dir/Parser.i: cmake_force
@@ -215,7 +254,7 @@ CMakeFiles/specter.dir/Parser.s: cmake_force
 
 CMakeFiles/specter.dir/PinholeCamera.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/PinholeCamera.o: ../PinholeCamera.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/specter.dir/PinholeCamera.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/specter.dir/PinholeCamera.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/PinholeCamera.o -c /Users/bruce/Desktop/reference/PinholeCamera.cc
 
 CMakeFiles/specter.dir/PinholeCamera.i: cmake_force
@@ -228,7 +267,7 @@ CMakeFiles/specter.dir/PinholeCamera.s: cmake_force
 
 CMakeFiles/specter.dir/Plane.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Plane.o: ../Plane.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/specter.dir/Plane.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/specter.dir/Plane.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Plane.o -c /Users/bruce/Desktop/reference/Plane.cc
 
 CMakeFiles/specter.dir/Plane.i: cmake_force
@@ -241,7 +280,7 @@ CMakeFiles/specter.dir/Plane.s: cmake_force
 
 CMakeFiles/specter.dir/Point.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Point.o: ../Point.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/specter.dir/Point.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/specter.dir/Point.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Point.o -c /Users/bruce/Desktop/reference/Point.cc
 
 CMakeFiles/specter.dir/Point.i: cmake_force
@@ -254,7 +293,7 @@ CMakeFiles/specter.dir/Point.s: cmake_force
 
 CMakeFiles/specter.dir/PointLight.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/PointLight.o: ../PointLight.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/specter.dir/PointLight.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/specter.dir/PointLight.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/PointLight.o -c /Users/bruce/Desktop/reference/PointLight.cc
 
 CMakeFiles/specter.dir/PointLight.i: cmake_force
@@ -267,7 +306,7 @@ CMakeFiles/specter.dir/PointLight.s: cmake_force
 
 CMakeFiles/specter.dir/Primitive.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Primitive.o: ../Primitive.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/specter.dir/Primitive.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/specter.dir/Primitive.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Primitive.o -c /Users/bruce/Desktop/reference/Primitive.cc
 
 CMakeFiles/specter.dir/Primitive.i: cmake_force
@@ -280,7 +319,7 @@ CMakeFiles/specter.dir/Primitive.s: cmake_force
 
 CMakeFiles/specter.dir/Scene.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Scene.o: ../Scene.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/specter.dir/Scene.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/specter.dir/Scene.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Scene.o -c /Users/bruce/Desktop/reference/Scene.cc
 
 CMakeFiles/specter.dir/Scene.i: cmake_force
@@ -293,7 +332,7 @@ CMakeFiles/specter.dir/Scene.s: cmake_force
 
 CMakeFiles/specter.dir/Sphere.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Sphere.o: ../Sphere.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/specter.dir/Sphere.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/specter.dir/Sphere.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Sphere.o -c /Users/bruce/Desktop/reference/Sphere.cc
 
 CMakeFiles/specter.dir/Sphere.i: cmake_force
@@ -306,7 +345,7 @@ CMakeFiles/specter.dir/Sphere.s: cmake_force
 
 CMakeFiles/specter.dir/Time.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Time.o: ../Time.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/specter.dir/Time.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/specter.dir/Time.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Time.o -c /Users/bruce/Desktop/reference/Time.cc
 
 CMakeFiles/specter.dir/Time.i: cmake_force
@@ -319,7 +358,7 @@ CMakeFiles/specter.dir/Time.s: cmake_force
 
 CMakeFiles/specter.dir/Vector.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/Vector.o: ../Vector.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/specter.dir/Vector.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/specter.dir/Vector.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/Vector.o -c /Users/bruce/Desktop/reference/Vector.cc
 
 CMakeFiles/specter.dir/Vector.i: cmake_force
@@ -332,7 +371,7 @@ CMakeFiles/specter.dir/Vector.s: cmake_force
 
 CMakeFiles/specter.dir/specter.o: CMakeFiles/specter.dir/flags.make
 CMakeFiles/specter.dir/specter.o: ../specter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/specter.dir/specter.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/specter.dir/specter.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/specter.dir/specter.o -c /Users/bruce/Desktop/reference/specter.cc
 
 CMakeFiles/specter.dir/specter.i: cmake_force
@@ -349,11 +388,14 @@ specter_OBJECTS = \
 "CMakeFiles/specter.dir/BoundingBox.o" \
 "CMakeFiles/specter.dir/Camera.o" \
 "CMakeFiles/specter.dir/Color.o" \
+"CMakeFiles/specter.dir/Cone.o" \
 "CMakeFiles/specter.dir/ConstantBackground.o" \
+"CMakeFiles/specter.dir/Cylinder.o" \
 "CMakeFiles/specter.dir/Group.o" \
 "CMakeFiles/specter.dir/Image.o" \
 "CMakeFiles/specter.dir/LambertianMaterial.o" \
 "CMakeFiles/specter.dir/Light.o" \
+"CMakeFiles/specter.dir/Line.o" \
 "CMakeFiles/specter.dir/Material.o" \
 "CMakeFiles/specter.dir/Object.o" \
 "CMakeFiles/specter.dir/Parser.o" \
@@ -375,11 +417,14 @@ specter: CMakeFiles/specter.dir/Background.o
 specter: CMakeFiles/specter.dir/BoundingBox.o
 specter: CMakeFiles/specter.dir/Camera.o
 specter: CMakeFiles/specter.dir/Color.o
+specter: CMakeFiles/specter.dir/Cone.o
 specter: CMakeFiles/specter.dir/ConstantBackground.o
+specter: CMakeFiles/specter.dir/Cylinder.o
 specter: CMakeFiles/specter.dir/Group.o
 specter: CMakeFiles/specter.dir/Image.o
 specter: CMakeFiles/specter.dir/LambertianMaterial.o
 specter: CMakeFiles/specter.dir/Light.o
+specter: CMakeFiles/specter.dir/Line.o
 specter: CMakeFiles/specter.dir/Material.o
 specter: CMakeFiles/specter.dir/Object.o
 specter: CMakeFiles/specter.dir/Parser.o
@@ -395,7 +440,7 @@ specter: CMakeFiles/specter.dir/Vector.o
 specter: CMakeFiles/specter.dir/specter.o
 specter: CMakeFiles/specter.dir/build.make
 specter: CMakeFiles/specter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable specter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bruce/Desktop/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable specter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/specter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

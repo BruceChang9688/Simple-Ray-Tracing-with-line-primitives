@@ -14,7 +14,7 @@ void ConstantBackground::preprocess()
 }
 
 void ConstantBackground::getBackgroundColor(Color& result, const RenderContext&,
-                                            const Ray&)
+                                            const Ray&,Color& atten)
 {
-  result=bgcolor;
+  result=result + bgcolor*atten;
 }

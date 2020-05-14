@@ -184,6 +184,21 @@ Color.s:
 .PHONY : Color.s
 
 # target to build an object file
+Cone.o:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cone.o
+.PHONY : Cone.o
+
+# target to preprocess a source file
+Cone.i:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cone.i
+.PHONY : Cone.i
+
+# target to generate assembly for a file
+Cone.s:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cone.s
+.PHONY : Cone.s
+
+# target to build an object file
 ConstantBackground.o:
 	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/ConstantBackground.o
 .PHONY : ConstantBackground.o
@@ -197,6 +212,21 @@ ConstantBackground.i:
 ConstantBackground.s:
 	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/ConstantBackground.s
 .PHONY : ConstantBackground.s
+
+# target to build an object file
+Cylinder.o:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cylinder.o
+.PHONY : Cylinder.o
+
+# target to preprocess a source file
+Cylinder.i:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cylinder.i
+.PHONY : Cylinder.i
+
+# target to generate assembly for a file
+Cylinder.s:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Cylinder.s
+.PHONY : Cylinder.s
 
 # target to build an object file
 Group.o:
@@ -257,6 +287,21 @@ Light.i:
 Light.s:
 	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Light.s
 .PHONY : Light.s
+
+# target to build an object file
+Line.o:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Line.o
+.PHONY : Line.o
+
+# target to preprocess a source file
+Line.i:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Line.i
+.PHONY : Line.i
+
+# target to generate assembly for a file
+Line.s:
+	$(MAKE) -f CMakeFiles/specter.dir/build.make CMakeFiles/specter.dir/Line.s
+.PHONY : Line.s
 
 # target to build an object file
 Material.o:
@@ -474,9 +519,15 @@ help:
 	@echo "... Color.o"
 	@echo "... Color.i"
 	@echo "... Color.s"
+	@echo "... Cone.o"
+	@echo "... Cone.i"
+	@echo "... Cone.s"
 	@echo "... ConstantBackground.o"
 	@echo "... ConstantBackground.i"
 	@echo "... ConstantBackground.s"
+	@echo "... Cylinder.o"
+	@echo "... Cylinder.i"
+	@echo "... Cylinder.s"
 	@echo "... Group.o"
 	@echo "... Group.i"
 	@echo "... Group.s"
@@ -489,6 +540,9 @@ help:
 	@echo "... Light.o"
 	@echo "... Light.i"
 	@echo "... Light.s"
+	@echo "... Line.o"
+	@echo "... Line.i"
+	@echo "... Line.s"
 	@echo "... Material.o"
 	@echo "... Material.i"
 	@echo "... Material.s"

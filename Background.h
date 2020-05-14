@@ -12,7 +12,7 @@ class Background {
   virtual ~Background();
 
   virtual void preprocess();
-  virtual void getBackgroundColor(Color& result, const RenderContext& context, const Ray& ray) = 0;
+  virtual void getBackgroundColor(Color& result, const RenderContext& context, const Ray& ray,Color& color_depth) = 0;
 
  private:
   Background(const Background&);

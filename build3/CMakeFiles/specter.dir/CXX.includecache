@@ -6,33 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/bruce/Desktop/reference/BoundingBox.h
-Point.h
-/Users/bruce/Desktop/reference/Point.h
+/Users/bruce/Desktop/reference/Background.h
 
-/Users/bruce/Desktop/reference/HitRecord.h
+/Users/bruce/Desktop/reference/Camera.h
 
-/Users/bruce/Desktop/reference/Line.cc
-Line.h
-/Users/bruce/Desktop/reference/Line.h
-BoundingBox.h
-/Users/bruce/Desktop/reference/BoundingBox.h
-HitRecord.h
-/Users/bruce/Desktop/reference/HitRecord.h
-Point.h
-/Users/bruce/Desktop/reference/Point.h
-Ray.h
-/Users/bruce/Desktop/reference/Ray.h
-math.h
+/Users/bruce/Desktop/reference/Color.h
+Math.h
+/Users/bruce/Desktop/reference/Math.h
+iosfwd
 -
 
-/Users/bruce/Desktop/reference/Line.h
-Primitive.h
-/Users/bruce/Desktop/reference/Primitive.h
-Point.h
-/Users/bruce/Desktop/reference/Point.h
-Vector.h
-/Users/bruce/Desktop/reference/Vector.h
+/Users/bruce/Desktop/reference/HitRecord.h
+
+/Users/bruce/Desktop/reference/Image.h
+Color.h
+/Users/bruce/Desktop/reference/Color.h
+Math.h
+/Users/bruce/Desktop/reference/Math.h
+string
+-
+
+/Users/bruce/Desktop/reference/Light.h
+
+/Users/bruce/Desktop/reference/Material.h
 
 /Users/bruce/Desktop/reference/Math.h
 
@@ -44,15 +40,49 @@ Vector.h
 iosfwd
 -
 
-/Users/bruce/Desktop/reference/Primitive.h
-Object.h
-/Users/bruce/Desktop/reference/Object.h
-
 /Users/bruce/Desktop/reference/Ray.h
 Point.h
 /Users/bruce/Desktop/reference/Point.h
 Vector.h
 /Users/bruce/Desktop/reference/Vector.h
+
+/Users/bruce/Desktop/reference/RenderContext.h
+
+/Users/bruce/Desktop/reference/Scene.cc
+Scene.h
+/Users/bruce/Desktop/reference/Scene.h
+Background.h
+/Users/bruce/Desktop/reference/Background.h
+Camera.h
+/Users/bruce/Desktop/reference/Camera.h
+HitRecord.h
+/Users/bruce/Desktop/reference/HitRecord.h
+Image.h
+/Users/bruce/Desktop/reference/Image.h
+Light.h
+/Users/bruce/Desktop/reference/Light.h
+Material.h
+/Users/bruce/Desktop/reference/Material.h
+Object.h
+/Users/bruce/Desktop/reference/Object.h
+Ray.h
+/Users/bruce/Desktop/reference/Ray.h
+RenderContext.h
+/Users/bruce/Desktop/reference/RenderContext.h
+float.h
+-
+iostream
+-
+stdlib.h
+-
+
+/Users/bruce/Desktop/reference/Scene.h
+Color.h
+/Users/bruce/Desktop/reference/Color.h
+string
+-
+vector
+-
 
 /Users/bruce/Desktop/reference/Vector.h
 Math.h

@@ -1,0 +1,161 @@
+// This is a test scene for Specter.  Try running "specter test.scn".
+
+xres 512
+yres 512
+filename "image21.ppm"
+
+camera pinhole {
+  eye [ -24.0, -2.0, 5.2 ]
+  lookat [ 1.0, 1.0, 2.4 ]
+  up [ 0.0, 0.0, 1.0 ]
+  hfov 45.0
+}
+
+background constant {
+  color [ 0.5, 0.5, 0.5 ]
+}
+
+ambient [ 0.6, 0.6, 0.6 ]
+
+light point {
+  position [ -30.0, -20.0, 80.0 ]
+  color [ 0.7, 0.9, 0.9 ]
+}
+light point {
+  position [ -20.0, -20.0, 20.0 ]
+  color [ 0.8, 0.8, 0.8 ]
+}
+
+scene group {
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 1
+    }
+    center [ 0.5, -2.0, 1.0 ]
+    radius 0.7
+  }
+
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 3
+    }
+    center [ 3.0, 7.0, 4.0 ]
+    radius 0.5
+  }
+
+  Line{
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 2
+    }
+    p1 [ 0.5, -2.0, 1.0 ]
+    p2 [ 3.0, 7.0, 4.0 ]
+    pr1 0.7
+    pr2 0.5
+  }
+
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 5
+    }
+    center [ 1.5, 3.5, 1.0 ]
+    radius 0.5
+  }
+
+  Line{
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 4
+    }
+    p1 [ 3.0, 7.0, 4.0 ]
+    p2 [ 1.5, 3.5, 1.0 ]
+    pr1 0.5
+    pr2 0.5
+  }
+
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 7
+    }
+    center [ 0.5, 1.0, 4.0  ]
+    radius 0.5
+  }
+
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 9
+    }
+    center [ 0.5, -3.0, 9.0 ]
+    radius 0.3
+  }
+
+  Line{
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 6
+    }
+    p1 [ 0.5, 1.0, 4.0  ]
+    p2 [ 0.5, -3.0, 9.0 ]
+    pr1 0.5
+    pr2 0.3
+  }
+
+  sphere {
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 11
+    }
+    center [ 1.5, -5.0, 9.0 ]
+    radius 0.5
+  }
+
+  Line{
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 8
+    }
+    p1 [ 0.5, -3.0, 9.0 ]
+    p2 [ 1.5, -5.0, 9.0 ]
+    pr1 0.3
+    pr2 0.5
+    }
+
+  Line{
+    material lambertian {
+      color [ 1.0, 0.9, 0.1 ]
+      Kd 0.6
+      Ka 0.4
+      sign 10
+    }
+    p1 [ 0.5, 1.0, 4.0  ]
+    p2 [ 3.0, 7.0, 4.0 ]
+    pr1 0.5
+    pr2 0.5
+  }
+
+}

@@ -17,11 +17,33 @@ CMakeFiles/specter.dir/Color.o: ../Color.cc
 CMakeFiles/specter.dir/Color.o: ../Color.h
 CMakeFiles/specter.dir/Color.o: ../Math.h
 
+CMakeFiles/specter.dir/Cone.o: ../BoundingBox.h
+CMakeFiles/specter.dir/Cone.o: ../Cone.cc
+CMakeFiles/specter.dir/Cone.o: ../Cone.h
+CMakeFiles/specter.dir/Cone.o: ../HitRecord.h
+CMakeFiles/specter.dir/Cone.o: ../Math.h
+CMakeFiles/specter.dir/Cone.o: ../Object.h
+CMakeFiles/specter.dir/Cone.o: ../Point.h
+CMakeFiles/specter.dir/Cone.o: ../Primitive.h
+CMakeFiles/specter.dir/Cone.o: ../Ray.h
+CMakeFiles/specter.dir/Cone.o: ../Vector.h
+
 CMakeFiles/specter.dir/ConstantBackground.o: ../Background.h
 CMakeFiles/specter.dir/ConstantBackground.o: ../Color.h
 CMakeFiles/specter.dir/ConstantBackground.o: ../ConstantBackground.cc
 CMakeFiles/specter.dir/ConstantBackground.o: ../ConstantBackground.h
 CMakeFiles/specter.dir/ConstantBackground.o: ../Math.h
+
+CMakeFiles/specter.dir/Cylinder.o: ../BoundingBox.h
+CMakeFiles/specter.dir/Cylinder.o: ../Cylinder.cc
+CMakeFiles/specter.dir/Cylinder.o: ../Cylinder.h
+CMakeFiles/specter.dir/Cylinder.o: ../HitRecord.h
+CMakeFiles/specter.dir/Cylinder.o: ../Math.h
+CMakeFiles/specter.dir/Cylinder.o: ../Object.h
+CMakeFiles/specter.dir/Cylinder.o: ../Point.h
+CMakeFiles/specter.dir/Cylinder.o: ../Primitive.h
+CMakeFiles/specter.dir/Cylinder.o: ../Ray.h
+CMakeFiles/specter.dir/Cylinder.o: ../Vector.h
 
 CMakeFiles/specter.dir/Group.o: ../BoundingBox.h
 CMakeFiles/specter.dir/Group.o: ../Group.cc
@@ -54,6 +76,17 @@ CMakeFiles/specter.dir/LambertianMaterial.o: ../Vector.h
 CMakeFiles/specter.dir/Light.o: ../Light.cc
 CMakeFiles/specter.dir/Light.o: ../Light.h
 
+CMakeFiles/specter.dir/Line.o: ../BoundingBox.h
+CMakeFiles/specter.dir/Line.o: ../HitRecord.h
+CMakeFiles/specter.dir/Line.o: ../Line.cc
+CMakeFiles/specter.dir/Line.o: ../Line.h
+CMakeFiles/specter.dir/Line.o: ../Math.h
+CMakeFiles/specter.dir/Line.o: ../Object.h
+CMakeFiles/specter.dir/Line.o: ../Point.h
+CMakeFiles/specter.dir/Line.o: ../Primitive.h
+CMakeFiles/specter.dir/Line.o: ../Ray.h
+CMakeFiles/specter.dir/Line.o: ../Vector.h
+
 CMakeFiles/specter.dir/Material.o: ../Material.cc
 CMakeFiles/specter.dir/Material.o: ../Material.h
 
@@ -63,11 +96,14 @@ CMakeFiles/specter.dir/Object.o: ../Object.h
 CMakeFiles/specter.dir/Parser.o: ../Background.h
 CMakeFiles/specter.dir/Parser.o: ../Camera.h
 CMakeFiles/specter.dir/Parser.o: ../Color.h
+CMakeFiles/specter.dir/Parser.o: ../Cone.h
 CMakeFiles/specter.dir/Parser.o: ../ConstantBackground.h
+CMakeFiles/specter.dir/Parser.o: ../Cylinder.h
 CMakeFiles/specter.dir/Parser.o: ../Group.h
 CMakeFiles/specter.dir/Parser.o: ../Image.h
 CMakeFiles/specter.dir/Parser.o: ../LambertianMaterial.h
 CMakeFiles/specter.dir/Parser.o: ../Light.h
+CMakeFiles/specter.dir/Parser.o: ../Line.h
 CMakeFiles/specter.dir/Parser.o: ../Material.h
 CMakeFiles/specter.dir/Parser.o: ../Math.h
 CMakeFiles/specter.dir/Parser.o: ../Object.h
@@ -161,11 +197,14 @@ CMakeFiles/specter.dir/Vector.o: ../Vector.h
 CMakeFiles/specter.dir/specter.o: ../Background.h
 CMakeFiles/specter.dir/specter.o: ../Camera.h
 CMakeFiles/specter.dir/specter.o: ../Color.h
+CMakeFiles/specter.dir/specter.o: ../Cone.h
 CMakeFiles/specter.dir/specter.o: ../ConstantBackground.h
+CMakeFiles/specter.dir/specter.o: ../Cylinder.h
 CMakeFiles/specter.dir/specter.o: ../Group.h
 CMakeFiles/specter.dir/specter.o: ../Image.h
 CMakeFiles/specter.dir/specter.o: ../LambertianMaterial.h
 CMakeFiles/specter.dir/specter.o: ../Light.h
+CMakeFiles/specter.dir/specter.o: ../Line.h
 CMakeFiles/specter.dir/specter.o: ../Material.h
 CMakeFiles/specter.dir/specter.o: ../Math.h
 CMakeFiles/specter.dir/specter.o: ../Object.h

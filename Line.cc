@@ -9,6 +9,16 @@
 Line::Line(Material* material, const Point& p1, const Point& p2,double pr1, double pr2)
   : Primitive(material), p1(p1), p2(p2),pr1(pr1),pr2(pr2)
 {
+  if(pr1==pr2)
+  {
+    Z = (p2 - p1);
+    zz = Z.length();
+    center = p1 + 0.5*Z;
+    Z.normalize();
+    rx=ry=pr1;
+  }
+  else
+  {
     Vector C = p1 - p2;
     Point point1 = p1;
     Point point2 = p2;
@@ -51,6 +61,7 @@ Line::Line(Material* material, const Point& p1, const Point& p2,double pr1, doub
   Z.normalize();
   rx = radius1 + (radius2-radius1)*0.5;
   ry = (radius2-radius1)/zz;
+  }
 }
 
 Line::~Line()
@@ -84,18 +95,20 @@ void Line::intersect(HitRecord& hit, const RenderContext&, const Ray& ray) const
     // printf("radius = %f",zz);
     Vector O(ray.origin() - center);
     const Vector& V(ray.direction());
-    double radius;
+    double radius = rx;
     double ov = Dot(O,V);
     double oz = Dot(O,Z);
     double vz = Dot(V,Z);
     double vv = Dot(V,V);
     double oo = Dot(O,O);
-    double a = vv - vz*vz*(1.0+ry*ry);
-    double b = 2.0*ov - 2.0*oz*vz*(1+ry*ry) + 2.0*rx*ry*vz;
-    double c = oo - oz*oz*(1+ry*ry) - rx*rx + 2*rx*ry*oz;
-    double delta = b*b - 4.0*a*c;
-    if(delta>0)
+    if(rx==ry)
     {
+      double a = vv - vz*vz;
+    double b = 2.0*ov - 2.0*oz*vz;
+    double c = oo - oz*oz - radius*radius;
+    double delta = b*b - 4.0*a*c;
+      if(delta>0)
+      {
         double disc = sqrt(delta);
         double root1 = (-b-disc)/(2.0*a);
         Vector p1 = O + root1*V;
@@ -113,6 +126,35 @@ void Line::intersect(HitRecord& hit, const RenderContext&, const Ray& ray) const
         {
             hit.hit(root2, this, matl);
         }
+      }
+    }
+    else
+    {
+      double a = vv - vz*vz*(1.0+ry*ry);
+      double b = 2.0*ov - 2.0*oz*vz*(1+ry*ry) + 2.0*rx*ry*vz;
+      double c = oo - oz*oz*(1+ry*ry) - rx*rx + 2*rx*ry*oz;
+      double delta = b*b - 4.0*a*c;
+      if(delta>0)
+      {
+        double disc = sqrt(delta);
+        double root1 = (-b-disc)/(2.0*a);
+        Vector p1 = O + root1*V;
+        double x = Abs(Dot(p1,Z));
+        if(x<=(zz/2))
+        {
+            hit.hit(root1, this, matl);
+            // if(!hit.hit(root1, this, matl)){
+            // }
+        }
+        double root2 = (-b + disc)/(2.0*a);
+        p1 = O + root2*V;
+        x = Abs(Dot(p1,Z));
+        if(x<=(zz)/2)
+        {
+            hit.hit(root2, this, matl);
+        }
+      }
+
     }
 }
 
