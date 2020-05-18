@@ -86,14 +86,15 @@ void Scene::render()
       // }
       int depth = 0;
       int symbol = -1;
-      traceRay(result,context,ray,atten,depth,0,symbol,-1);
+      int num_sign = -1;
+      traceRay(result,context,ray,atten,object_sign,0,symbol,num_sign);
       // cout<<result<<endl;
       image->set(j, i, result);
     }
   }
 }
 
-double Scene::traceRay(Color& result, const RenderContext& context, const Ray& ray, const Color& atten, int& depth, int sign, int& symbol,int num_sign) const
+double Scene::traceRay(Color& result, const RenderContext& context, const Ray& ray, const Color& atten, int* (&depth), int sign, int symbol,int& num_sign) const
 {
   // if(depth >= maxRayDepth || atten.maxComponent() < minAttenuation){
   //   result = Color(0, 0, 0);
@@ -105,13 +106,46 @@ double Scene::traceRay(Color& result, const RenderContext& context, const Ray& r
       // Ray hit something...
       const Material* matl = hit.getMaterial();
       int new_sign = matl->print_sign();
-      if(num_sign==-1)
+      if(num_sign == -1)
       {
-        depth = new_sign;
         num_sign++;
+        depth[num_sign] = new_sign;
+        symbol = 1;
       }
+      else if(num_sign >= 0)
+      {
+        int is_new_sign = 0;
+        for(int i=0;i<=num_sign;i++)
+        {
+          if(new_sign==depth[i])
+          is_new_sign=1;
+        }
+        if(is_new_sign ==0 )
+        {
+          num_sign++;
+          depth[num_sign] = new_sign;
+          symbol = 1;
+        }
+        else symbol=0;
+      }
+    
+      // if(num_sign==2)
+      // {
+      // for(int i=0;i<=num_sign;i++)
+      // {
+      //   cout<<depth[i]<<'\t';
+      // }
+      // cout<<endl;
+      // }
       sign = new_sign;
       matl->shade(result, context, ray, hit, atten, depth,sign,symbol,num_sign);
+      // if(num_sign==-1)
+      // {
+      //   depth = new_sign;
+      //   num_sign++;
+      // }
+      // sign = new_sign;
+      // matl->shade(result, context, ray, hit, atten, depth,sign,symbol,num_sign);
       // if(new_sign!=sign)
       // {
       //   if((num_sign>-1)&&((new_sign%2)!=0))

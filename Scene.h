@@ -77,7 +77,7 @@ class Scene {
 
   void preprocess();
   void render();
-  double traceRay(Color& result, const RenderContext& context, const Ray& ray, const Color& attenuation, int& depth,int sign, int& symbol,int num_sign) const;
+  double traceRay(Color& result, const RenderContext& context, const Ray& ray, const Color& attenuation, int* (&depth),int sign, int symbol,int& num_sign) const;
   double traceRay(Color& result, const RenderContext& context, const Object* obj, const Ray& ray, const Color& attenuation, int depth) const;
 
  private:
